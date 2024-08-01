@@ -1,0 +1,127 @@
+/* SpeedTypingGame.css */
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: #e7e9e9;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 5px;
+    width: calc(100% - 10px);
+    padding: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
+  }
+  
+  input.input-field{
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+  }
+  
+  #paragraph{
+    word-break: break-all;
+    text-align: left;
+  }
+  .section{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+  }
+  .section1{
+    border-bottom: 1px solid #ced4da;
+  }
+  span{
+    font-size: 30px;
+    user-select: none;
+    cursor: tex;
+  }
+  span.wrong{
+    color: darkred;
+    background-color: pink;
+  }
+  
+  span.correct{
+    color: #0e630e;
+    background: #e7fbd3;
+  }
+  
+  span.active{
+    border-bottom: 3px solid #0a6bf9;
+  }
+  
+  .section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .section2 ul{
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: calc(100% - 120px);
+  }
+  
+  .section2 ul li{
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  
+  .section2 ul li p{
+    margin: 5px;
+    font-size: 15px;
+  }
+  
+  .section2 ul li span{
+    font-size: 20px;
+  }
+  
+  button.btn {
+    padding: 15px 20px;
+    outline: none;
+    border: 1px solid #ced4da;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #df15ce;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+  }
+  
+  button.btn:hover{
+    background-color: #df15ce;
+    border: 1px solid black;
+  }
+  
+  @media screen and (max-width : 550px){
+    .section2{
+        flex-direction: column;
+    }
+  
+    .section2 ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+  
+    button.btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+  }
+  
