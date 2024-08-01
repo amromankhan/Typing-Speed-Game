@@ -9,7 +9,7 @@ import TypingArea from './TypingArea'; // Import the TypingArea component
 
 const SpeedTypingGame = () => {
     const paragraphs = [
-        "Welcome to Bano Qabil. Bano Qabil is Alkhidmat Karachi’s ambitious and first-of-its-kind youth education initiative. Intended to empower and skill Karachi’s youth in the latest technologies, Bano Qabil offers 100% free, advanced IT courses to give our youth a headstart in launching their employment and freelancing careers. Bano Qabil is the Largest IT scholarship Program for the Youth of Karachi offering advanced IT courses packed with the latest technologies."
+        "Welcome to Bano Qabil. Bano Qabil is Alkhidmat Karachi's ambitious and first-of-its-kind youth education initiative. Intended to empower and skill Karachi's youth in the latest technologies, Bano Qabil offers 100% free, advanced IT courses to give our youth a headstart in launching their employment and freelancing careers. Bano Qabil is the Largest IT scholarship Program for the Youth of Karachi offering advanced IT courses packed with the latest technologies."
     ];
 
     const [typingText, setTypingText] = useState('');

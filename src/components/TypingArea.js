@@ -14,6 +14,7 @@ const TypingArea = ({
 }) => {
   return (
     <>
+      <h1>Typing Speed Test</h1>
     <div className="section">
       <div className="section1">
         <p id="paragraph">{typingText}</p>
